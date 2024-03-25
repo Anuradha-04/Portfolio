@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
 
             <div className="bg-primary py-12 text-white text-sm text-center mt-28 eurostile sm:mx-16 mx-6">
-                <a href="#" className="text-2xl font-semibold block mb-8 animate-slide-up">D N SINGH</a>
+                <a href="#" className="text-2xl font-semibold block mb-8 animate-slide-up">ANURADHA SINGH</a>
                 <div className="flex flex-wrap justify-center lg:gap-8 sm:gap-6 gap-4 mb-12 sm:text-[18px] text-[15px]">
                     <div>
                         <a href="#" className="text-white hover:text-gray-300 cursor-pointer">Home</a>
