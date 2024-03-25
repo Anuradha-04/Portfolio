@@ -47,7 +47,7 @@ const Footer = () => {
                     <a href="https://twitter.com/DNSingh_15?t=xWdK5Bg918dBMaCp3UDeWQ&s=09" className="text-white hover:text-gray-300"><BsTwitter /></a>
                 </div>
                 <div className="text-gray-300 sm:text-[16px] text-[14px]">
-                    <div>&copy; D N Singh Personal Website. All rights riversed.</div>
+                    <div>&copy; Anuradha Singh Personal Website. All rights riversed.</div>
                 </div>
             </div>
         </div>
