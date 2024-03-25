@@ -41,8 +41,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex justify-center gap-10 mb-16 sm:text-[22px] text-[18px]">
-                    <a href="https://www.linkedin.com/in/d-n-singh-49b85b1b2/" className="text-white hover:text-gray-300"><BsLinkedin /></a>
-                    <a href="https://github.com/DNSingh-15" className="text-white hover:text-gray-300"><BsGithub /></a>
+                    <a href='https://www.linkedin.com/in/anuradha-singh-230b8b253/' target="_blank" className="text-white hover:text-gray-300"><BsLinkedin /></a>
+                    <a href='https://github.com/Anuradha-04' target="_blank" className="text-white hover:text-gray-300"><BsGithub /></a>
                     <a href="https://instagram.com/__dnsingh_15__?igshid=ZDdkNTZiNTM=" className="text-white hover:text-gray-300"><BsInstagram /></a>
                     <a href="https://twitter.com/DNSingh_15?t=xWdK5Bg918dBMaCp3UDeWQ&s=09" className="text-white hover:text-gray-300"><BsTwitter /></a>
                 </div>
