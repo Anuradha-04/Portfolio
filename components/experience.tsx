@@ -8,8 +8,8 @@ const Experience = () => {
 
             <div className='flex item center justify-center'>
                 <div className='eurostile animate-slide-up'>
-                    <h5 className='sm:text-[18px] text-[15px] ml-7 sm:ml-0'>What Skills I Have</h5>
-                    <h1 className='sm:text-[30px] text-[24px] -ml-4 sm:-ml-16 font-medium mt-3'>MY EXPERIENCE</h1>
+                    <h5 className='sm:text-[18px] text-[15px] ml-7 sm:ml-0 text-[#FFF]'>What Skills I Have</h5>
+                    <h1 className='sm:text-[30px] text-[24px] -ml-4 sm:-ml-16 font-medium mt-3 text-[#FFF]'>MY EXPERIENCE</h1>
                 </div>
             </div>
 
