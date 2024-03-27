@@ -18,7 +18,7 @@ const Header = () => {
           style={{ height: "100%", width: "100%" }}
         />
       </div>
-      <div className='relative h-screen sm:pt-16 pt-10 sm:mx-16 mx-6'>
+      <div className='relative h-screen sm:pt-16 pt-10 sm:mx-16 mx-6 text-[#FFF]'>
         <div className='flex item center justify-center'>
           <div className='eurostile animate-slide-up'>
             <h5 className='sm:text-[18px] text-[15px] ml-16'>Hello I'm</h5>
