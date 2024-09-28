@@ -49,7 +49,7 @@ const Contact = () => {
 
                     <div className="bg-[#0f0b2f] rounded-lg py-14 text-center transition-all hover:bg-transparent border border-transparent hover:border-[#4738bc] animate-slide-up">
                         <div className='flex justify-center'>
-                            <SiLinkedin className="text-[#4738bc] text-[23px]" />
+                            <BsWhatsapp className="text-[#4738bc] text-[25px]" />
                             <h4 className='ml-3'>Whatsapp</h4>
                         </div>
                         <h5 className='mt-2'>Connect with Whatsapp</h5>
@@ -61,7 +61,7 @@ const Contact = () => {
 
                     <div className="bg-[#0f0b2f] rounded-lg py-14 text-center transition-all hover:bg-transparent border border-transparent hover:border-[#4738bc] animate-slide-up">
                         <div className='flex justify-center'>
-                            <BsWhatsapp className="text-[#4738bc] text-[25px]" />
+                            <SiLinkedin className="text-[#4738bc] text-[23px]" />
                             <h4 className='ml-3 mt-[1px]'>Linkedin</h4>
                         </div>
                         <h5 className='mt-2'>Connect with Linkedin</h5>
