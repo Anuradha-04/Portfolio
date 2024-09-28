@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </div>
         <div className='flex item center justify-center eurostile mt-3 sm:text-[16px] text-[14px] animate-slide-up'>
-          <div>A MERN Stack Developer with a solid background in JavaScript technology stacks such as React.Js, Next.Js, Redux and Tailwind css </div>
+          <div>A Frontend Developer with a solid background in JavaScript technology stacks such as React.Js, Next.Js, Redux and Tailwind css </div>
         </div>
 
         <div className='sm:mt-16 mt-8'>
