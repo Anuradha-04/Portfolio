@@ -5,16 +5,6 @@ import { BsInstagram, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 const Footer = () => {
     return (
         <div className='relative'>
-            <div className="absolute inset-0">
-                <Image
-                    height={2000}
-                    width={2000}
-                    alt=''
-                    src={"/images/purplebg2.png"}
-                    style={{ height: "100%", width: "100%" }}
-                />
-            </div>
-
             <div className="bg-primary py-12 text-white text-sm text-center mt-28 eurostile sm:mx-16 mx-6">
                 <a href="#" className="text-2xl font-semibold block mb-8 animate-slide-up">ANURADHA SINGH</a>
                 <div className="flex flex-wrap justify-center lg:gap-8 sm:gap-6 gap-4 mb-12 sm:text-[18px] text-[15px]">
@@ -43,8 +33,6 @@ const Footer = () => {
                 <div className="flex justify-center gap-10 mb-16 sm:text-[22px] text-[18px]">
                     <a href='https://www.linkedin.com/in/anuradha-singh-230b8b253/' target="_blank" className="text-white hover:text-gray-300"><BsLinkedin /></a>
                     <a href='https://github.com/Anuradha-04' target="_blank" className="text-white hover:text-gray-300"><BsGithub /></a>
-                    <a href="https://instagram.com/__dnsingh_15__?igshid=ZDdkNTZiNTM=" className="text-white hover:text-gray-300"><BsInstagram /></a>
-                    <a href="https://twitter.com/DNSingh_15?t=xWdK5Bg918dBMaCp3UDeWQ&s=09" className="text-white hover:text-gray-300"><BsTwitter /></a>
                 </div>
                 <div className="text-gray-300 sm:text-[16px] text-[14px]">
                     <div>&copy; Anuradha Singh Personal Website. All rights riversed.</div>
