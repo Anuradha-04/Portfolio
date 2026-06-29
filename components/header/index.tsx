@@ -25,9 +25,12 @@ const Header = () => {
             <h1 className='sm:text-[28px] text-[22px] mt-3 sm:-ml-12 -ml-8 font-medium'> ANURADHA SINGH</h1>
           </div>
         </div>
-        <div className='flex item center justify-center eurostile mt-3 sm:text-[16px] text-[14px] animate-slide-up'>
-          <div>A Frontend Developer with a solid background in JavaScript technology stacks such as React.Js, Next.Js, Redux and Tailwind css </div>
-        </div>
+        <p className="max-w-3xl mx-auto mt-6 text-gray-300 leading-8 text-sm sm:text-lg">
+          Full Stack Software Engineer with 2+ years of experience designing and building
+          scalable web applications using React.js, Next.js, TypeScript, FastAPI,
+          Node.js, Python, PostgreSQL, and MongoDB. Experienced in developing
+          AI-powered applications using OpenAI APIs, LangChain, LangGraph, and RAG.
+        </p>
 
         <div className='sm:mt-16 mt-8'>
           <CTA />
@@ -45,13 +48,10 @@ const Header = () => {
               width={2000}
               alt=""
               src={"/images/me-about.png"}
-              className="h-[80%] sm:w-[25vw] w-[68vw] object-cover"
-            // style={{ height: "100%", width: "100%" }}
+              className="h-[75%] sm:w-[25vw] w-[68vw] object-cover"
             />
           </div>
         </div>
-
-
       </div>
     </div>
 

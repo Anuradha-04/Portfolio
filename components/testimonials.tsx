@@ -58,20 +58,6 @@ const experiences = [
                     "ChromaDB",
                 ],
             },
-            {
-                name: "AI Meeting Summarizer",
-                link: "",
-                description:
-                    "Built an AI-powered meeting assistant that records meetings, generates concise summaries, extracts action items, and enables intelligent search using LLMs—similar to Zoom AI Companion.",
-                technologies: [
-                    "OpenAI",
-                    "LangChain",
-                    "LangGraph",
-                    "RAG",
-                    "ChromaDB",
-                    "FastAPI",
-                ],
-            },
         ],
     },
 
