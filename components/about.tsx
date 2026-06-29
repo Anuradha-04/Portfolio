@@ -21,23 +21,24 @@ const About = () => {
                         <article className="about__card bg-[#0f0b2f] rounded-lg py-14 text-center transition-all hover:bg-transparent border border-transparent hover:border-[#4738bc]">
                             <FaAward className='text-[#4738bc] text-4xl mx-auto mb-3' />
                             <h5 className="text-white">EXPERIENCE</h5>
-                            <div className="text-gray-400 mt-2">1 + Years Working</div>
+                            <div className="text-gray-400 mt-2">2 + Years Working</div>
                         </article>
 
                         <article className="about__card bg-[#0f0b2f] rounded-lg py-14 text-center transition-all hover:bg-transparent border border-transparent hover:border-[#4738bc]">
                             <FiUsers className='text-[#4738bc] text-4xl mx-auto mb-3' />
                             <h5 className="text-white">CLIENTS</h5>
-                            <div className="text-gray-400 mt-2">2 + World Wide</div>
+                            <div className="text-gray-400 mt-2">5 + World Wide</div>
                         </article>
 
                         <article className="about__card bg-[#0f0b2f] rounded-lg py-14 text-center transition-all hover:bg-transparent border border-transparent hover:border-[#4738bc]">
                             <VscFolderLibrary className='text-[#4738bc] text-4xl mx-auto mb-3' />
                             <h5 className="text-white">PROJECTS</h5>
-                            <div className="text-gray-400 mt-2">10 + Completed</div>
+                            <div className="text-gray-400 mt-2">20 + Completed</div>
                         </article>
                     </div>
-                    <p className="text-gray-400 sm:mt-8 mt-6">I'm a Frontend Developer dedicated to building and optimizing user-focused web applications. Experience in working with Package Management tools such as npm and yarn. Experienced in writing clear, well-documented and commented code for any type of application.</p>
-
+                    <p className="text-gray-400 sm:mt-8 mt-6">
+                        I'm a Full Stack Software Engineer with 2+ years of experience building scalable web applications and AI-powered solutions. I specialize in React.js, Next.js, TypeScript, FastAPI, Node.js, and Python, with hands-on experience integrating OpenAI APIs, LangChain, and RAG-based applications. Passionate about writing clean, maintainable code and delivering high-performance, user-centric products.
+                    </p>
                     <div className='flex item center justify-center'>
                         <a href="#contact" className='sm:mt-8 mt-6 sm:text-[18px] text-[15px]'>Let's Talk</a>
                     </div>

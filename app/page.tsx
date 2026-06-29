@@ -19,9 +19,9 @@ export default function Home() {
       <div className="sm:mt-[70px] mt-[40px] sm:mx-16 mx-6">
         <Experience />
       </div>
-      <div className="sm:mt-[30px] mt-[2px]">
+      {/* <div className="sm:mt-[30px] mt-[2px]">
         <Portfolio />
-      </div>
+      </div> */}
       <div className="sm:mt-[70px] mt-[40px]">
         <Testimonials />
       </div>

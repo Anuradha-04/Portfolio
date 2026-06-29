@@ -1,92 +1,126 @@
 import React from 'react';
 import { BsPatchCheckFill } from 'react-icons/bs';
-import "../app/globals.css"
+import "../app/globals.css";
 
 const Experience = () => {
     return (
         <section id="experience" className="py-16">
-
-            <div className='flex item center justify-center'>
-                <div className='eurostile animate-slide-up'>
-                    <h5 className='sm:text-[18px] text-[15px] ml-7 sm:ml-0 text-[#FFF]'>What Skills I Have</h5>
-                    <h1 className='sm:text-[30px] text-[24px] -ml-4 sm:-ml-16 font-medium mt-3 text-[#FFF]'>MY EXPERIENCE</h1>
+            <div className="flex items-center justify-center">
+                <div className="eurostile animate-slide-up text-center">
+                    <h5 className="sm:text-[18px] text-[15px] text-white">
+                        What Skills I Have
+                    </h5>
+                    <h1 className="sm:text-[30px] text-[24px] font-medium mt-3 text-white">
+                        MY EXPERIENCE
+                    </h1>
                 </div>
             </div>
 
             <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 eurostile sm:mt-12 mt-8 animate-slide-up">
-                {/* Languages */}
-                <div className="bg-[#0f0b2f] rounded-xl p-6 hover:border-[#4738bc] transition-all hover:bg-transparent border border-transparent">
-                    <h3 className="text-center sm:text-2xl text-xl mb-6">Languages & Others</h3>
-                    <div className="grid grid-cols-2 gap-8 text-[13px] sm:text-[16px]">
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>HTML</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>CSS</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Javascript</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Typescript</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Git</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Jira</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Agile methodology</div>
-                        </div>
-                    </div>
-                </div>
 
                 {/* Frontend */}
                 <div className="bg-[#0f0b2f] rounded-xl p-6 hover:border-[#4738bc] transition-all hover:bg-transparent border border-transparent">
-                    <h3 className="text-center sm:text-2xl text-xl mb-6">FRONTEND DEVELOPMENT</h3>
-                    <div className="grid grid-cols-2 gap-8 text-[13px] sm:text-[16px]">
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>React.Js</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Next.Js</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Redux</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Tailwind CSS</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>Axios</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>WordPress</div>
-                        </div>
-                        <div className='flex'>
-                            <BsPatchCheckFill className='text-[#4738bc]'/>
-                            <div className='ml-2 -mt-1'>JQuery</div>
-                        </div>
+                    <h3 className="text-center sm:text-2xl text-xl mb-6">
+                        FRONTEND
+                    </h3>
+
+                    <div className="grid grid-cols-2 gap-6 text-[13px] sm:text-[16px]">
+                        {[
+                            "React.js",
+                            "Next.js",
+                            "TypeScript",
+                            "JavaScript",
+                            "Redux",
+                            "Tailwind CSS",
+                            "Material UI",
+                            "HTML & CSS",
+                        ].map((skill) => (
+                            <div key={skill} className="flex items-center">
+                                <BsPatchCheckFill className="text-[#4738bc]" />
+                                <span className="ml-2">{skill}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Backend */}
+                <div className="bg-[#0f0b2f] rounded-xl p-6 hover:border-[#4738bc] transition-all hover:bg-transparent border border-transparent">
+                    <h3 className="text-center sm:text-2xl text-xl mb-6">
+                        BACKEND
+                    </h3>
+
+                    <div className="grid grid-cols-2 gap-6 text-[13px] sm:text-[16px]">
+                        {[
+                            "FastAPI",
+                            "Node.js",
+                            "Express.js",
+                            "Python",
+                            "REST APIs",
+                            "WebSockets",
+                            "JWT Auth",
+                            "SQL",
+                        ].map((skill) => (
+                            <div key={skill} className="flex items-center">
+                                <BsPatchCheckFill className="text-[#4738bc]" />
+                                <span className="ml-2">{skill}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* AI & Cloud */}
+                <div className="bg-[#0f0b2f] rounded-xl p-6 hover:border-[#4738bc] transition-all hover:bg-transparent border border-transparent">
+                    <h3 className="text-center sm:text-2xl text-xl mb-6">
+                        AI & CLOUD
+                    </h3>
+
+                    <div className="grid grid-cols-2 gap-6 text-[13px] sm:text-[16px]">
+                        {[
+                            "OpenAI API",
+                            "LangChain",
+                            "LangGraph",
+                            "RAG",
+                            "ChromaDB",
+                            "Prompt Engineering",
+                            "AWS",
+                            "Lambda & S3",
+                        ].map((skill) => (
+                            <div key={skill} className="flex items-center">
+                                <BsPatchCheckFill className="text-[#4738bc]" />
+                                <span className="ml-2">{skill}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Database & Tools */}
+                <div className="bg-[#0f0b2f] rounded-xl p-6 hover:border-[#4738bc] transition-all hover:bg-transparent border border-transparent">
+                    <h3 className="text-center sm:text-2xl text-xl mb-6">
+                        DATABASE & TOOLS
+                    </h3>
+
+                    <div className="grid grid-cols-2 gap-6 text-[13px] sm:text-[16px]">
+                        {[
+                            "PostgreSQL",
+                            "MongoDB",
+                            "Git",
+                            "GitHub",
+                            "npm",
+                            "Yarn",
+                            "Agile",
+                            "Jira",
+                        ].map((skill) => (
+                            <div key={skill} className="flex items-center">
+                                <BsPatchCheckFill className="text-[#4738bc]" />
+                                <span className="ml-2">{skill}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
             </div>
         </section>
     );
-}
+};
 
 export default Experience;
